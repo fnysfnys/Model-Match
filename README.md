@@ -132,3 +132,27 @@ You can now login with:
 
 * username: admin
 * password: 1234
+
+## Testing
+
+To test the backend open the backend's CLI:
+
+`docker exec -it backend bash`
+
+cd into app:
+
+`cd app`
+
+To run all tests:
+
+`pytest`
+
+To run the system tests:
+
+`pytest tests/system_tests`
+
+To run the unit tests:
+
+`pytest tests/unit_tests`
+
+NOTE: Some system tests may take a while as they are building docker images, please be patient.
