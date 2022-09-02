@@ -2,15 +2,11 @@
 
 Backend for model match, a web-service for hosting trained machine learning models as Docker images.
 
-## Deployment
-
 ## Requirements
 
 You must have docker installed and the docker daemon must be running.
 
 ## Deployment
-
-NOTE: If you are deploying on Linode, please read the Linode section first, if you are just testing this locally, you can skip it.
 
 ### 1. Setting up the database
 
