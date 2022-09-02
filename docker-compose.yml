@@ -1,0 +1,17 @@
+services:
+  backend:
+    image: "backend"
+    container_name: "backend"
+    ports:
+      - "8000:8000"
+    volumes:
+      - datasets:/app/data/datasets
+      - models:/app/data/models
+      - /var/run/docker.sock:/var/run/docker.sock
+    env_file:
+      - variables.env
+
+volumes:
+  datasets:
+  models:
+  images:
