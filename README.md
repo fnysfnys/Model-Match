@@ -1,6 +1,6 @@
 # Model-Match
 
-Backend for model match, a web-service for hosting trained machine learning models as Docker images.
+Backend for Model Match, a web-service for hosting trained machine learning models as Docker images.
 
 ## Requirements
 
