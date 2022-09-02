@@ -1,0 +1,11 @@
+services:
+  model:
+    image: ""
+    container_name: "model"
+  model-frontend:
+    depends_on: 
+      - model
+    image: "model-frontend"
+    container_name: "model-frontend"
+    ports:
+      - "80:80"

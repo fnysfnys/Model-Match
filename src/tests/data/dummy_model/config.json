@@ -1,0 +1,8 @@
+{
+    "predict":
+    {
+        "module": "model",
+        "class": "Model",
+        "function": "predict"
+    }
+}
